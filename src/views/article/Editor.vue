@@ -107,6 +107,7 @@
            }
         },
         methods:{
+            
             getParams(){
                 let routerParams=this.$route.params.bid
                 this.blog_id=routerParams
