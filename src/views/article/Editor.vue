@@ -12,7 +12,7 @@
         <el-row>
             <el-col :offset="1" :span="7">
                 <el-upload
-                        action="http://localhost:8888/admin/blog/file/upload"
+                        action="https://www.xuhbin.cn/admin/blog/file/upload"
                         name="image"
                         :headers="header"
                         :on-remove="handleRemove"
